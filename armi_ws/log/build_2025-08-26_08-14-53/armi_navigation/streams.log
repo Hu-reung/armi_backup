@@ -1,0 +1,43 @@
+[4.723s] Invoking command in '/home/hci/armi_ws/src/armi_navigation': PYTHONPATH=/home/hci/armi_ws/build/armi_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hci/armi_ws/install/armi_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/armi_navigation build --build-base /home/hci/armi_ws/build/armi_navigation/build install --record /home/hci/armi_ws/build/armi_navigation/install.log --single-version-externally-managed install_data
+[5.961s] running egg_info
+[5.970s] creating ../../build/armi_navigation/armi_navigation.egg-info
+[5.971s] writing ../../build/armi_navigation/armi_navigation.egg-info/PKG-INFO
+[5.973s] writing dependency_links to ../../build/armi_navigation/armi_navigation.egg-info/dependency_links.txt
+[5.974s] writing entry points to ../../build/armi_navigation/armi_navigation.egg-info/entry_points.txt
+[5.974s] writing requirements to ../../build/armi_navigation/armi_navigation.egg-info/requires.txt
+[5.975s] writing top-level names to ../../build/armi_navigation/armi_navigation.egg-info/top_level.txt
+[5.976s] writing manifest file '../../build/armi_navigation/armi_navigation.egg-info/SOURCES.txt'
+[5.988s] reading manifest file '../../build/armi_navigation/armi_navigation.egg-info/SOURCES.txt'
+[5.990s] writing manifest file '../../build/armi_navigation/armi_navigation.egg-info/SOURCES.txt'
+[5.990s] running build
+[5.991s] running build_py
+[5.992s] creating /home/hci/armi_ws/build/armi_navigation/build
+[5.992s] creating /home/hci/armi_ws/build/armi_navigation/build/lib
+[5.993s] creating /home/hci/armi_ws/build/armi_navigation/build/lib/armi_navigation
+[5.994s] copying armi_navigation/waypoint_follower.py -> /home/hci/armi_ws/build/armi_navigation/build/lib/armi_navigation
+[5.994s] copying armi_navigation/__init__.py -> /home/hci/armi_ws/build/armi_navigation/build/lib/armi_navigation
+[5.995s] copying armi_navigation/nav_to_pose_client.py -> /home/hci/armi_ws/build/armi_navigation/build/lib/armi_navigation
+[5.996s] running install
+[5.997s] running install_lib
+[6.002s] creating /home/hci/armi_ws/install/armi_navigation/lib/python3.10/site-packages/armi_navigation
+[6.003s] copying /home/hci/armi_ws/build/armi_navigation/build/lib/armi_navigation/waypoint_follower.py -> /home/hci/armi_ws/install/armi_navigation/lib/python3.10/site-packages/armi_navigation
+[6.003s] copying /home/hci/armi_ws/build/armi_navigation/build/lib/armi_navigation/__init__.py -> /home/hci/armi_ws/install/armi_navigation/lib/python3.10/site-packages/armi_navigation
+[6.005s] copying /home/hci/armi_ws/build/armi_navigation/build/lib/armi_navigation/nav_to_pose_client.py -> /home/hci/armi_ws/install/armi_navigation/lib/python3.10/site-packages/armi_navigation
+[6.007s] byte-compiling /home/hci/armi_ws/install/armi_navigation/lib/python3.10/site-packages/armi_navigation/waypoint_follower.py to waypoint_follower.cpython-310.pyc
+[6.009s] byte-compiling /home/hci/armi_ws/install/armi_navigation/lib/python3.10/site-packages/armi_navigation/__init__.py to __init__.cpython-310.pyc
+[6.010s] byte-compiling /home/hci/armi_ws/install/armi_navigation/lib/python3.10/site-packages/armi_navigation/nav_to_pose_client.py to nav_to_pose_client.cpython-310.pyc
+[6.014s] running install_data
+[6.014s] creating /home/hci/armi_ws/install/armi_navigation/share/ament_index
+[6.015s] creating /home/hci/armi_ws/install/armi_navigation/share/ament_index/resource_index
+[6.015s] creating /home/hci/armi_ws/install/armi_navigation/share/ament_index/resource_index/packages
+[6.016s] copying resource/armi_navigation -> /home/hci/armi_ws/install/armi_navigation/share/ament_index/resource_index/packages
+[6.016s] copying package.xml -> /home/hci/armi_ws/install/armi_navigation/share/armi_navigation
+[6.017s] creating /home/hci/armi_ws/install/armi_navigation/share/armi_navigation/config
+[6.017s] copying config/waypoints.yaml -> /home/hci/armi_ws/install/armi_navigation/share/armi_navigation/config
+[6.018s] running install_egg_info
+[6.026s] Copying ../../build/armi_navigation/armi_navigation.egg-info to /home/hci/armi_ws/install/armi_navigation/lib/python3.10/site-packages/armi_navigation-0.0.0-py3.10.egg-info
+[6.033s] running install_scripts
+[6.139s] Installing nav_to_pose_client script to /home/hci/armi_ws/install/armi_navigation/lib/armi_navigation
+[6.140s] Installing waypoint_follower script to /home/hci/armi_ws/install/armi_navigation/lib/armi_navigation
+[6.143s] writing list of installed files to '/home/hci/armi_ws/build/armi_navigation/install.log'
+[6.393s] Invoked command in '/home/hci/armi_ws/src/armi_navigation' returned '0': PYTHONPATH=/home/hci/armi_ws/build/armi_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hci/armi_ws/install/armi_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/armi_navigation build --build-base /home/hci/armi_ws/build/armi_navigation/build install --record /home/hci/armi_ws/build/armi_navigation/install.log --single-version-externally-managed install_data

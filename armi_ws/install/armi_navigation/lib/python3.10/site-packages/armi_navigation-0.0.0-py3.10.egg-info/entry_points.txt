@@ -1,0 +1,4 @@
+[console_scripts]
+nav_to_pose_client = armi_navigation.nav_to_pose_client:main
+waypoint_follower = armi_navigation.waypoint_follower:main
+

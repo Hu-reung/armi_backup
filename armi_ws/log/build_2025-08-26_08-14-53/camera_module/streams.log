@@ -1,0 +1,22 @@
+[4.638s] Invoking command in '/home/hci/armi_ws/src/camera_module': PYTHONPATH=/home/hci/armi_ws/build/camera_module/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hci/armi_ws/install/camera_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_module build --build-base /home/hci/armi_ws/build/camera_module/build install --record /home/hci/armi_ws/build/camera_module/install.log --single-version-externally-managed install_data
+[5.898s] running egg_info
+[5.900s] writing ../../build/camera_module/camera_module.egg-info/PKG-INFO
+[5.901s] writing dependency_links to ../../build/camera_module/camera_module.egg-info/dependency_links.txt
+[5.901s] writing entry points to ../../build/camera_module/camera_module.egg-info/entry_points.txt
+[5.901s] writing requirements to ../../build/camera_module/camera_module.egg-info/requires.txt
+[5.902s] writing top-level names to ../../build/camera_module/camera_module.egg-info/top_level.txt
+[5.902s] reading manifest file '../../build/camera_module/camera_module.egg-info/SOURCES.txt'
+[5.921s] adding license file 'LICENSE'
+[5.923s] writing manifest file '../../build/camera_module/camera_module.egg-info/SOURCES.txt'
+[5.923s] running build
+[5.924s] running build_py
+[5.927s] running install
+[5.928s] running install_lib
+[5.934s] running install_data
+[5.935s] running install_egg_info
+[5.944s] removing '/home/hci/armi_ws/install/camera_module/lib/python3.10/site-packages/camera_module-0.0.1-py3.10.egg-info' (and everything under it)
+[5.945s] Copying ../../build/camera_module/camera_module.egg-info to /home/hci/armi_ws/install/camera_module/lib/python3.10/site-packages/camera_module-0.0.1-py3.10.egg-info
+[5.957s] running install_scripts
+[6.051s] Installing camera_node script to /home/hci/armi_ws/install/camera_module/lib/yolo_module
+[6.053s] writing list of installed files to '/home/hci/armi_ws/build/camera_module/install.log'
+[6.235s] Invoked command in '/home/hci/armi_ws/src/camera_module' returned '0': PYTHONPATH=/home/hci/armi_ws/build/camera_module/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hci/armi_ws/install/camera_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_module build --build-base /home/hci/armi_ws/build/camera_module/build install --record /home/hci/armi_ws/build/camera_module/install.log --single-version-externally-managed install_data

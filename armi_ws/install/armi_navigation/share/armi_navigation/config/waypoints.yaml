@@ -1,0 +1,24 @@
+waypoints:
+  elevator_front:
+    frame_id: "map"
+    position:
+      x: -17.407555546558257
+      y: -2.440015086570492
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.053226049678525664
+      w: 0.9985824891493036
+
+  custom_goal:
+    frame_id: "map"
+    position:
+      x: -1.7546759063963582
+      y: -0.9423652131033142
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: -0.9994369830901145
+      w: 0.03355170385733136

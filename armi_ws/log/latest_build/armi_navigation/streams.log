@@ -1,0 +1,22 @@
+[4.178s] Invoking command in '/home/hci/armi_ws/src/armi_navigation': PYTHONPATH=/home/hci/armi_ws/build/armi_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hci/armi_ws/install/armi_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/armi_navigation build --build-base /home/hci/armi_ws/build/armi_navigation/build install --record /home/hci/armi_ws/build/armi_navigation/install.log --single-version-externally-managed install_data
+[5.354s] running egg_info
+[5.358s] writing ../../build/armi_navigation/armi_navigation.egg-info/PKG-INFO
+[5.362s] writing dependency_links to ../../build/armi_navigation/armi_navigation.egg-info/dependency_links.txt
+[5.363s] writing entry points to ../../build/armi_navigation/armi_navigation.egg-info/entry_points.txt
+[5.365s] writing requirements to ../../build/armi_navigation/armi_navigation.egg-info/requires.txt
+[5.366s] writing top-level names to ../../build/armi_navigation/armi_navigation.egg-info/top_level.txt
+[5.376s] reading manifest file '../../build/armi_navigation/armi_navigation.egg-info/SOURCES.txt'
+[5.379s] writing manifest file '../../build/armi_navigation/armi_navigation.egg-info/SOURCES.txt'
+[5.387s] running build
+[5.389s] running build_py
+[5.389s] running install
+[5.398s] running install_lib
+[5.400s] running install_data
+[5.401s] running install_egg_info
+[5.401s] removing '/home/hci/armi_ws/install/armi_navigation/lib/python3.10/site-packages/armi_navigation-0.0.0-py3.10.egg-info' (and everything under it)
+[5.404s] Copying ../../build/armi_navigation/armi_navigation.egg-info to /home/hci/armi_ws/install/armi_navigation/lib/python3.10/site-packages/armi_navigation-0.0.0-py3.10.egg-info
+[5.411s] running install_scripts
+[5.512s] Installing nav_to_pose_client script to /home/hci/armi_ws/install/armi_navigation/lib/armi_navigation
+[5.514s] Installing waypoint_follower script to /home/hci/armi_ws/install/armi_navigation/lib/armi_navigation
+[5.518s] writing list of installed files to '/home/hci/armi_ws/build/armi_navigation/install.log'
+[5.753s] Invoked command in '/home/hci/armi_ws/src/armi_navigation' returned '0': PYTHONPATH=/home/hci/armi_ws/build/armi_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hci/armi_ws/install/armi_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/armi_navigation build --build-base /home/hci/armi_ws/build/armi_navigation/build install --record /home/hci/armi_ws/build/armi_navigation/install.log --single-version-externally-managed install_data

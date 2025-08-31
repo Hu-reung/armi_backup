@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/armi_navigation/armi_navigation.egg-info/PKG-INFO
+writing dependency_links to ../../build/armi_navigation/armi_navigation.egg-info/dependency_links.txt
+writing entry points to ../../build/armi_navigation/armi_navigation.egg-info/entry_points.txt
+writing requirements to ../../build/armi_navigation/armi_navigation.egg-info/requires.txt
+writing top-level names to ../../build/armi_navigation/armi_navigation.egg-info/top_level.txt
+reading manifest file '../../build/armi_navigation/armi_navigation.egg-info/SOURCES.txt'
+writing manifest file '../../build/armi_navigation/armi_navigation.egg-info/SOURCES.txt'
+running build
+running build_py
+copying armi_navigation/camera_node.py -> /home/hci/armi_ws/build/armi_navigation/build/lib/armi_navigation
+running install
+running install_lib
+copying /home/hci/armi_ws/build/armi_navigation/build/lib/armi_navigation/camera_node.py -> /home/hci/armi_ws/install/armi_navigation/lib/python3.10/site-packages/armi_navigation
+byte-compiling /home/hci/armi_ws/install/armi_navigation/lib/python3.10/site-packages/armi_navigation/camera_node.py to camera_node.cpython-310.pyc
+running install_data
+copying package.xml -> /home/hci/armi_ws/install/armi_navigation/share/armi_navigation
+running install_egg_info
+removing '/home/hci/armi_ws/install/armi_navigation/lib/python3.10/site-packages/armi_navigation-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/armi_navigation/armi_navigation.egg-info to /home/hci/armi_ws/install/armi_navigation/lib/python3.10/site-packages/armi_navigation-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_node script to /home/hci/armi_ws/install/armi_navigation/lib/armi_navigation
+Installing nav_to_pose_client script to /home/hci/armi_ws/install/armi_navigation/lib/armi_navigation
+Installing waypoint_follower script to /home/hci/armi_ws/install/armi_navigation/lib/armi_navigation
+writing list of installed files to '/home/hci/armi_ws/build/armi_navigation/install.log'

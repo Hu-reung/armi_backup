@@ -1,0 +1,24 @@
+[2.519s] Invoking command in '/home/hci/armi_ws/build/camera_module': PYTHONPATH=/home/hci/armi_ws/build/camera_module/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hci/armi_ws/install/camera_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hci/armi_ws/build/camera_module/build --no-deps symlink_data
+[3.565s] running develop
+[4.167s] running egg_info
+[4.168s] creating camera_module.egg-info
+[4.168s] writing camera_module.egg-info/PKG-INFO
+[4.169s] writing dependency_links to camera_module.egg-info/dependency_links.txt
+[4.170s] writing entry points to camera_module.egg-info/entry_points.txt
+[4.170s] writing requirements to camera_module.egg-info/requires.txt
+[4.171s] writing top-level names to camera_module.egg-info/top_level.txt
+[4.172s] writing manifest file 'camera_module.egg-info/SOURCES.txt'
+[4.177s] reading manifest file 'camera_module.egg-info/SOURCES.txt'
+[4.180s] writing manifest file 'camera_module.egg-info/SOURCES.txt'
+[4.185s] running build_ext
+[4.186s] Creating /home/hci/armi_ws/install/camera_module/lib/python3.10/site-packages/camera-module.egg-link (link to .)
+[4.190s] Installing camera_node script to /home/hci/armi_ws/install/camera_module/lib/yolo_module
+[4.191s] 
+[4.191s] Installed /home/hci/armi_ws/build/camera_module
+[4.192s] running symlink_data
+[4.192s] creating /home/hci/armi_ws/install/camera_module/share/ament_index
+[4.193s] creating /home/hci/armi_ws/install/camera_module/share/ament_index/resource_index
+[4.194s] creating /home/hci/armi_ws/install/camera_module/share/ament_index/resource_index/packages
+[4.194s] symbolically linking /home/hci/armi_ws/build/camera_module/resource/camera_module -> /home/hci/armi_ws/install/camera_module/share/ament_index/resource_index/packages
+[4.195s] symbolically linking /home/hci/armi_ws/build/camera_module/package.xml -> /home/hci/armi_ws/install/camera_module/share/camera_module
+[4.316s] Invoked command in '/home/hci/armi_ws/build/camera_module' returned '0': PYTHONPATH=/home/hci/armi_ws/build/camera_module/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hci/armi_ws/install/camera_module/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/hci/armi_ws/build/camera_module/build --no-deps symlink_data

@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.001047] (armi_navigation) JobQueued: {'identifier': 'armi_navigation', 'dependencies': OrderedDict()}
+[0.001978] (camera_module) JobQueued: {'identifier': 'camera_module', 'dependencies': OrderedDict()}
+[0.002549] (armi_navigation) JobStarted: {'identifier': 'armi_navigation'}
+[0.042715] (camera_module) JobStarted: {'identifier': 'camera_module'}
+[0.099191] (-) TimerEvent: {}
+[0.199953] (-) TimerEvent: {}
+[0.300857] (-) TimerEvent: {}
+[0.401864] (-) TimerEvent: {}
+[0.502667] (-) TimerEvent: {}
+[0.603411] (-) TimerEvent: {}
+[0.704185] (-) TimerEvent: {}
+[0.804823] (-) TimerEvent: {}
+[0.905528] (-) TimerEvent: {}
+[1.006218] (-) TimerEvent: {}
+[1.107132] (-) TimerEvent: {}
+[1.208196] (-) TimerEvent: {}
+[1.308994] (-) TimerEvent: {}
+[1.409699] (-) TimerEvent: {}
+[1.510447] (-) TimerEvent: {}
+[1.611289] (-) TimerEvent: {}
+[1.712111] (-) TimerEvent: {}
+[1.813200] (-) TimerEvent: {}
+[1.913964] (-) TimerEvent: {}
+[2.014627] (-) TimerEvent: {}
+[2.115354] (-) TimerEvent: {}
+[2.216039] (-) TimerEvent: {}
+[2.316760] (-) TimerEvent: {}
+[2.417604] (-) TimerEvent: {}
+[2.518552] (-) TimerEvent: {}
+[2.619577] (-) TimerEvent: {}
+[2.720584] (-) TimerEvent: {}
+[2.821480] (-) TimerEvent: {}
+[2.922257] (-) TimerEvent: {}
+[3.023323] (-) TimerEvent: {}
+[3.126197] (-) TimerEvent: {}
+[3.226923] (-) TimerEvent: {}
+[3.328040] (-) TimerEvent: {}
+[3.429946] (-) TimerEvent: {}
+[3.530746] (-) TimerEvent: {}
+[3.631546] (-) TimerEvent: {}
+[3.732329] (-) TimerEvent: {}
+[3.833103] (-) TimerEvent: {}
+[3.934070] (-) TimerEvent: {}
+[4.035632] (-) TimerEvent: {}
+[4.137458] (-) TimerEvent: {}
+[4.169038] (armi_navigation) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/armi_navigation', 'build', '--build-base', '/home/hci/armi_ws/build/armi_navigation/build', 'install', '--record', '/home/hci/armi_ws/build/armi_navigation/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hci/armi_ws/src/armi_navigation', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hci', 'SSH_CLIENT': '192.168.1.210 63793 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/hci/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/hci/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/hci', 'OLDPWD': '/home/hci', 'TERM_PROGRAM_VERSION': '1.103.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-50b68589-e6d1-437b-b1b7-c65b11cc649e.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/hci/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/hci/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/hci/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hci', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/hci/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hci/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-26fac4890e.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/hci/turtlebot3_ws/install/turtlebot3:/home/hci/turtlebot3_ws/install/turtlebot3_teleop:/home/hci/turtlebot3_ws/install/turtlebot3_bringup:/home/hci/turtlebot3_ws/install/turtlebot3_node:/home/hci/turtlebot3_ws/install/turtlebot3_example:/home/hci/turtlebot3_ws/install/turtlebot3_description:/home/hci/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/hci/armi_ws/build/armi_navigation', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.210 63793 192.168.1.78 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/hci/armi_ws/build/armi_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hci/armi_ws/install/armi_navigation/lib/python3.10/site-packages:/home/hci/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/hci/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/hci/turtlebot3_ws/install/turtlebot3:/home/hci/turtlebot3_ws/install/turtlebot3_bringup:/home/hci/turtlebot3_ws/install/turtlebot3_node:/home/hci/turtlebot3_ws/install/turtlebot3_description:/home/hci/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[4.195025] (camera_module) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/camera_module', 'build', '--build-base', '/home/hci/armi_ws/build/camera_module/build', 'install', '--record', '/home/hci/armi_ws/build/camera_module/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/hci/armi_ws/src/camera_module', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'hci', 'SSH_CLIENT': '192.168.1.210 63793 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/hci/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/hci/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/hci', 'OLDPWD': '/home/hci', 'TERM_PROGRAM_VERSION': '1.103.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-50b68589-e6d1-437b-b1b7-c65b11cc649e.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/hci/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/hci/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/hci/turtlebot3_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'hci', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/hci/.vscode-server/cli/servers/Stable-6f17636121051a53c88d3e605c491d22af2ba755/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hci/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-26fac4890e.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/hci/turtlebot3_ws/install/turtlebot3:/home/hci/turtlebot3_ws/install/turtlebot3_teleop:/home/hci/turtlebot3_ws/install/turtlebot3_bringup:/home/hci/turtlebot3_ws/install/turtlebot3_node:/home/hci/turtlebot3_ws/install/turtlebot3_example:/home/hci/turtlebot3_ws/install/turtlebot3_description:/home/hci/turtlebot3_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/hci/armi_ws/build/camera_module', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.1.210 63793 192.168.1.78 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/hci/armi_ws/build/camera_module/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hci/armi_ws/install/camera_module/lib/python3.10/site-packages:/home/hci/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/hci/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/hci/turtlebot3_ws/install/turtlebot3:/home/hci/turtlebot3_ws/install/turtlebot3_bringup:/home/hci/turtlebot3_ws/install/turtlebot3_node:/home/hci/turtlebot3_ws/install/turtlebot3_description:/home/hci/turtlebot3_ws/install/ld08_driver'}, 'shell': False}
+[4.237599] (-) TimerEvent: {}
+[4.338483] (-) TimerEvent: {}
+[4.439401] (-) TimerEvent: {}
+[4.541051] (-) TimerEvent: {}
+[4.642564] (-) TimerEvent: {}
+[4.744125] (-) TimerEvent: {}
+[4.845407] (-) TimerEvent: {}
+[4.947010] (-) TimerEvent: {}
+[5.048563] (-) TimerEvent: {}
+[5.150225] (-) TimerEvent: {}
+[5.252179] (-) TimerEvent: {}
+[5.351985] (camera_module) StdoutLine: {'line': b'running egg_info\n'}
+[5.353043] (-) TimerEvent: {}
+[5.355176] (camera_module) StdoutLine: {'line': b'writing ../../build/camera_module/camera_module.egg-info/PKG-INFO\n'}
+[5.355916] (armi_navigation) StdoutLine: {'line': b'running egg_info\n'}
+[5.357006] (camera_module) StdoutLine: {'line': b'writing dependency_links to ../../build/camera_module/camera_module.egg-info/dependency_links.txt\n'}
+[5.357948] (camera_module) StdoutLine: {'line': b'writing entry points to ../../build/camera_module/camera_module.egg-info/entry_points.txt\n'}
+[5.359634] (camera_module) StdoutLine: {'line': b'writing requirements to ../../build/camera_module/camera_module.egg-info/requires.txt\n'}
+[5.360939] (armi_navigation) StdoutLine: {'line': b'writing ../../build/armi_navigation/armi_navigation.egg-info/PKG-INFO\n'}
+[5.361531] (camera_module) StdoutLine: {'line': b'writing top-level names to ../../build/camera_module/camera_module.egg-info/top_level.txt\n'}
+[5.364047] (armi_navigation) StdoutLine: {'line': b'writing dependency_links to ../../build/armi_navigation/armi_navigation.egg-info/dependency_links.txt\n'}
+[5.365642] (armi_navigation) StdoutLine: {'line': b'writing entry points to ../../build/armi_navigation/armi_navigation.egg-info/entry_points.txt\n'}
+[5.367502] (armi_navigation) StdoutLine: {'line': b'writing requirements to ../../build/armi_navigation/armi_navigation.egg-info/requires.txt\n'}
+[5.368491] (armi_navigation) StdoutLine: {'line': b'writing top-level names to ../../build/armi_navigation/armi_navigation.egg-info/top_level.txt\n'}
+[5.370390] (camera_module) StdoutLine: {'line': b"reading manifest file '../../build/camera_module/camera_module.egg-info/SOURCES.txt'\n"}
+[5.371918] (camera_module) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.374702] (camera_module) StdoutLine: {'line': b"writing manifest file '../../build/camera_module/camera_module.egg-info/SOURCES.txt'\n"}
+[5.375842] (camera_module) StdoutLine: {'line': b'running build\n'}
+[5.376549] (camera_module) StdoutLine: {'line': b'running build_py\n'}
+[5.378075] (armi_navigation) StdoutLine: {'line': b"reading manifest file '../../build/armi_navigation/armi_navigation.egg-info/SOURCES.txt'\n"}
+[5.378715] (camera_module) StdoutLine: {'line': b'running install\n'}
+[5.379607] (camera_module) StdoutLine: {'line': b'running install_lib\n'}
+[5.381520] (armi_navigation) StdoutLine: {'line': b"writing manifest file '../../build/armi_navigation/armi_navigation.egg-info/SOURCES.txt'\n"}
+[5.382460] (armi_navigation) StdoutLine: {'line': b'running build\n'}
+[5.390881] (armi_navigation) StdoutLine: {'line': b'running build_py\n'}
+[5.391729] (armi_navigation) StdoutLine: {'line': b'running install\n'}
+[5.392269] (camera_module) StdoutLine: {'line': b'running install_data\n'}
+[5.400003] (armi_navigation) StdoutLine: {'line': b'running install_lib\n'}
+[5.400983] (camera_module) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.401462] (camera_module) StdoutLine: {'line': b"removing '/home/hci/armi_ws/install/camera_module/lib/python3.10/site-packages/camera_module-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[5.401929] (camera_module) StdoutLine: {'line': b'Copying ../../build/camera_module/camera_module.egg-info to /home/hci/armi_ws/install/camera_module/lib/python3.10/site-packages/camera_module-0.0.1-py3.10.egg-info\n'}
+[5.402493] (armi_navigation) StdoutLine: {'line': b'running install_data\n'}
+[5.403148] (armi_navigation) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.403894] (armi_navigation) StdoutLine: {'line': b"removing '/home/hci/armi_ws/install/armi_navigation/lib/python3.10/site-packages/armi_navigation-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.404994] (camera_module) StdoutLine: {'line': b'running install_scripts\n'}
+[5.406214] (armi_navigation) StdoutLine: {'line': b'Copying ../../build/armi_navigation/armi_navigation.egg-info to /home/hci/armi_ws/install/armi_navigation/lib/python3.10/site-packages/armi_navigation-0.0.0-py3.10.egg-info\n'}
+[5.413241] (armi_navigation) StdoutLine: {'line': b'running install_scripts\n'}
+[5.453273] (-) TimerEvent: {}
+[5.497493] (camera_module) StdoutLine: {'line': b'Installing camera_node script to /home/hci/armi_ws/install/camera_module/lib/yolo_module\n'}
+[5.499388] (camera_module) StdoutLine: {'line': b"writing list of installed files to '/home/hci/armi_ws/build/camera_module/install.log'\n"}
+[5.513417] (armi_navigation) StdoutLine: {'line': b'Installing nav_to_pose_client script to /home/hci/armi_ws/install/armi_navigation/lib/armi_navigation\n'}
+[5.516140] (armi_navigation) StdoutLine: {'line': b'Installing waypoint_follower script to /home/hci/armi_ws/install/armi_navigation/lib/armi_navigation\n'}
+[5.519751] (armi_navigation) StdoutLine: {'line': b"writing list of installed files to '/home/hci/armi_ws/build/armi_navigation/install.log'\n"}
+[5.553692] (-) TimerEvent: {}
+[5.656003] (-) TimerEvent: {}
+[5.692330] (camera_module) CommandEnded: {'returncode': 0}
+[5.748934] (camera_module) JobEnded: {'identifier': 'camera_module', 'rc': 0}
+[5.754745] (armi_navigation) CommandEnded: {'returncode': 0}
+[5.756705] (-) TimerEvent: {}
+[5.794711] (armi_navigation) JobEnded: {'identifier': 'armi_navigation', 'rc': 0}
+[5.797777] (-) EventReactorShutdown: {}
